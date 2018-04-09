@@ -1,0 +1,18 @@
+server:
+  port: 8082
+
+
+# Datasource
+spring.datasource:
+  driver-class-name: org.postgresql.Driver
+  url: jdbc:postgresql://localhost:5432/ego?stringtype=unspecified
+
+  username: postgres
+  password:
+  max-active: 10
+  max-idle: 1
+  min-idle: 1
+
+spring.jpa:
+  database: POSTGRESQL
+  show-sql: true
